@@ -28,6 +28,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.header-flex-container {
+    display: flex;
+    width: 90%;
+    Justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.top-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
 body {
 	line-height: 1;
 }
