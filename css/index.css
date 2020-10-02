@@ -122,9 +122,48 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-wide {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-container-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content.blurbs {
+    width: 45%;
+    padding-bottom: 30px;
+}
+
+.middle-content.blurbs img {
+    width: 100%;
+}
+
+.middle-content.blurbs p {
+    margin: 1rem 0;
+}
+
+.middle-content.blurbs h2 {
+    margin-top: 0.5rem;
+    padding: 0 0;
+}
+
+.learn-more-button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.2rem 1rem;
 }
 
 .middle-content h2 {
@@ -200,6 +239,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    margin: 2rem 1rem;
 }
 
 footer {
