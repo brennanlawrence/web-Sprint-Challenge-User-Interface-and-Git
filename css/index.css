@@ -65,6 +65,10 @@ header nav a {
     text-decoration: none;
 }
 
+header nav a:hover {
+    color: grey;
+}
+
 body {
 	line-height: 1;
 }
@@ -166,6 +170,15 @@ p {
     padding: 0.2rem 1rem;
 }
 
+.learn-more-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.learn-more-button:active {
+    border-color: white;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -262,4 +275,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: lightgrey;
 }
