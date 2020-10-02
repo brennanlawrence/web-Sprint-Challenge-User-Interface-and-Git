@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Your code isn't always just for you. Often, you might be working with other developers or someone might follow behind you later. Or, perhaps you make a thing and then come back to it several years later. In each of these cases, there is the issue of readability in your code—that is to say, can other people (or your future self) tell what is going on?
+
+Because of this, it is a best practice to use Semantic html. We use the word semantic to mean, essentially, words tags that have human friendly names. Semantic tags are easy to tell what they are doing because their name is descriptive. Examples of semantic html are <h1> <p> <section> <nav> <header> <footer> etc. Each of these help you and anyone who might follow you to know exactly what a tag is doing and it's corresponding relationships with other elements.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. Block takes up its own line, while inline does not.
+    2. Inline can't be styled with height and width properties while block can.
+
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to development teams for several reasons. 
+    1. It allows teams to collaborate long distance
+    2. If something doesn't work, you can roll back to previous version.
+    3. It allows one person to manage all the changes and approve them before they become part of the final project.
+    4. It is totally asynchronous.
+    5. It helps to prevent teams from losing weeks and months of work if their machine dies. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
